@@ -5,17 +5,21 @@
 * Introduction
   This document contains the process setting up https://info.vlabs.ac.in
 
+
 * Problem 
   Since 5959 is not in well-defined port range, most of the
-  organiaztions and institutes block such ports. As a result of this,
-  institutes were not able to access custom web pages from
-  https://vlabs.ac.in. Example of such a page is -
+  organizations and institutes block such ports. As a result of this,
+  we got an incident reported by an institutes being not able to
+  access custom web pages from https://vlabs.ac.in. Example of such a
+  page is -
   http://vlabs.ac.in:5959/search_feature/disciplines/ElectricalEngineering/index.html
 
+
 * Quick workaround 
-  While any nginx configuration of Open edX for port 80 resulted into
-  500 internal server error, tweaking it any time soon is a risk. A
-  quick workaround as discussed in the Meeting on April 19, 2017 is as given below - 
+  While any change in nginx configuration of Open edX for port 80
+  resulted into 500 internal server error, tweaking it any time soon
+  is a risk. A quick workaround as discussed in the Meeting on April
+  19, 2017 is as given below -
 
   + Have https://vlabs.ac.in to serve Open edX webpages.
   + Have https://info.vlabs.ac.in to serve our custom pages.
@@ -55,6 +59,7 @@
     sudo service nginx restart
     #+END_SRC
  
+
 * Testing 
   + Take ssh access to Open edX testing machine - vlabs-test.vlabs.ac.in
   + Clone repository and change the branch to for-info-vlabs -
