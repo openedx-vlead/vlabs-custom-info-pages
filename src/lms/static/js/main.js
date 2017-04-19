@@ -98,9 +98,9 @@ window.onload = function(){ newTabs() }
 
 
 /*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Freelancer Bootstrap Theme (https://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * For details, see https://www.apache.org/licenses/LICENSE-2.0.
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -140,7 +140,7 @@ $('.navbar-collapse ul li a').click(function() {
  *  jQuery OwlCarousel v1.3.3
  *
  *  Copyright (c) 2013 Bartosz Wojciechowski
- *  http://www.owlgraphic.com/owlcarousel/
+ *  https://www.owlgraphic.com/owlcarousel/
  *
  *  Licensed under MIT
  *
