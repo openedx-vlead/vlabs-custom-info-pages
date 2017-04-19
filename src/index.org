@@ -24,7 +24,7 @@
   + Have https://vlabs.ac.in to serve Open edX webpages.
   + Have https://info.vlabs.ac.in to serve our custom pages.
   + Reference to all links with port 5959 can be replaced with corresponding page on https://info.vlabs.ac.in.
-  + Have proper links to allow user to navigate on https://vlabs.ac.in and https://info.vlabs.ac.in vice-versa.
+  + Have proper links to allow user to navigate on https://vlabs.ac.in and https://info.vlabs.ac.in vice versa.
 
 
 * Design   
@@ -68,6 +68,6 @@
     git checkout for-info-vlabs
     #+END_SRC
   + Compile theme using standard compilation command as given in [[https://github.com/openedx-vlead/vlabs-edx-bootstrap-theme.git][theme repository]].
-  + Check that links having 5959 are now removed and poiting to corresponding link in https://info.vlabs.ac.in
+  + Check that links having 5959 are now removed and pointing to corresponding link in https://info.vlabs.ac.in
 
 
