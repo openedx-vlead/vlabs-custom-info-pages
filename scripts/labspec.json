@@ -83,12 +83,12 @@
                     "init": [],
                     "pause": [],
                     "publish": [],
-                    "restore": [""],
+                    "restore": [],
                     "resume": [],
                     "shutdown": [],
-                    "start": [""],
+                    "start": [],
                     "stats": [],
-                    "stop": [""]
+                    "stop": []
                 },
                 "memory": {
                     "max_required": "2gb",
