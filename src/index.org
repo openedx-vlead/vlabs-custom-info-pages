@@ -71,3 +71,8 @@
   + Check that links having 5959 are now removed and pointing to corresponding link in https://info.vlabs.ac.in
 
 
+
+* Post Deployment 
+  + Install SSL certificates 
+  + Configure nginx to respond back only on https 
+  
