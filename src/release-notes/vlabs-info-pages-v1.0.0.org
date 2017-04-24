@@ -9,7 +9,7 @@
 
 
 * Features 
-  + Custom vlabs.ac.in look alike pages served from https://info-test.vlabs.ac.in 
+  + Custom vlabs.ac.in look alike pages served from https://info.vlabs.ac.in 
   + All other features and requirements are similiar to the one whose reference links are given below -
     + [[https://github.com/openedx-vlead/vlabs-edx-bootstrap-theme/issues][Issues]]
     + [[https://github.com/openedx-vlead/vlabs-edx-bootstrap-theme/milestones][Milstones]]
