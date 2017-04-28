@@ -12,7 +12,7 @@
   we got an incident reported by an institutes being not able to
   access custom web pages from https://vlabs.ac.in. Example of such a
   page is -
-  http://vlabs.ac.in:5959/search_feature/disciplines/ElectricalEngineering/index.html
+  https://info.vlabs.ac.in/search_feature/disciplines/ElectricalEngineering/index.html
 
 
 * Quick workaround 
