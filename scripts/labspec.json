@@ -80,7 +80,7 @@
                 "lab_actions": {
                     "backup": [],
                     "clean": [],
-                    "init": ["rm -rf /usr/share/nginx/www/*","cp -r ../build/* /usr/share/nginx/www/"],
+                    "init": [],
                     "pause": [],
                     "publish": [],
                     "restore": [],
