@@ -4,7 +4,7 @@
             "platform": {
                 "arch": "i386",
                 "build_steps": {
-                    "build": ["make -C ../src"],
+                    "build": [],
                     "configure": [],
                     "post_build": [],
                     "pre_build": [],
@@ -80,7 +80,7 @@
                 "lab_actions": {
                     "backup": [],
                     "clean": [],
-                    "init": ["rm -rf /usr/share/nginx/www/* ; cp -r -r ../build/* /usr/share/nginx/www/*"],
+                    "init": [],
                     "pause": [],
                     "publish": [],
                     "restore": [],
