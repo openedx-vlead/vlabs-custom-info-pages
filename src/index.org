@@ -14,7 +14,7 @@
   page is -
   https://info.vlabs.ac.in/search_feature/disciplines/ElectricalEngineering/index.html
 
-
+  
 * Quick workaround 
   While any change in nginx configuration of Open edX for port 80
   resulted into 500 internal server error, tweaking it any time soon
@@ -38,6 +38,7 @@
     https://vlabs.ac.in or continue accessing custom html pages from
     https://info.vlabs.ac.in
   
+  [[./design/design-of-vlabs-openedx-theme.jpg]]
 
 * Deployment
   Following are the steps taken to deploy https://info.vlabs.ac.in
@@ -59,7 +60,7 @@
     sudo service nginx restart
     #+END_SRC
  
-
+    
 * Testing 
   + Take ssh access to Open edX testing machine - vlabs-test.vlabs.ac.in
   + Clone repository and change the branch to for-info-vlabs -
@@ -70,9 +71,12 @@
   + Compile theme using standard compilation command as given in [[https://github.com/openedx-vlead/vlabs-edx-bootstrap-theme.git][theme repository]].
   + Check that links having 5959 are now removed and pointing to corresponding link in https://info.vlabs.ac.in
 
-
-
 * Post Deployment 
   + Install SSL certificates 
   + Configure nginx to respond back only on https 
   
+
+* Auto deployable version
+  The auto deployable version of Open edX is not using nginx. Please
+  check the labspec file to check the packages installed in auto
+  deployable version of https://info.vlabs.ac.in
